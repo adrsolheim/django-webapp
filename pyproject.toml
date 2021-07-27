@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "django-web"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "django_web"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Django = "^3.2.4"
+django-materializecss-form = "^1.1.18"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

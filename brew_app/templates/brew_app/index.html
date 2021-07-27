@@ -1,0 +1,14 @@
+{% extends "brew_app/base.html" %}
+
+{% block content %}
+<p>{{ l }}</p>
+<ul>
+{% if batches %}
+    {% for b in batches %}
+    <li>{{ b.name }}</li>
+    {% endfor %}
+{% endif %}
+</ul>
+
+<a href="/brygg/leggtil">add</a>
+{% endblock %}
