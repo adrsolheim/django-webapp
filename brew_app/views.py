@@ -8,8 +8,7 @@ from .models import Batch
 # heime/brygg
 def index(request):
     batches = Batch.objects.all()
-    l = len(batches)
-    return render(request, 'brew_app/index.html', {'batches': batches, 'l':l})
+    return render(request, 'brew_app/index.html', {'batches': batches})
 
 # full heime/brygg/leggtil
 # django /brygg/leggtil
