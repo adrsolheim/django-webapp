@@ -21,3 +21,9 @@ python manage.py runserver 0.0.0.0:3000
 ```
 
 ![localhost:3000/](http://localhost:3000/)
+
+## Other dependencies
+
+* `djoser` - URL endpoints for managing users
+* `pillow` - resizing images
+* `stripe` - classes for API resources

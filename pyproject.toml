@@ -10,6 +10,8 @@ packages = [{include = "django_web"}]
 python = "^3.9"
 Django = "^3.2.4"
 django-materializecss-form = "^1.1.18"
+django-rest-framework = "^0.1.0"
+django-cors-headers = "^3.7.0"
 
 [tool.poetry.dev-dependencies]
 
